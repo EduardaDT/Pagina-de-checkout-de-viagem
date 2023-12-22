@@ -1,0 +1,282 @@
+@media screen and (max-width: 768px) {
+
+  /*Estilos campo das datas */
+  .date-container {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 315px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .date-box {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    padding: 10px;
+    max-width: 315px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    background: #D9D9D9;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .date-label {
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Inter';
+    word-wrap: break-word;
+  }
+
+  .date-input {
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    background: transparent;
+    width: calc(100% - 20px);
+  }
+
+}
+
+  /*Estilos campo das datas */
+.date-container {
+  gap: 20px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.date-box {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  max-width: 315px;
+  padding-left: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  background: #d4d0d04b;
+  justify-content: center;
+}
+
+.date-label span {
+  line-height: 2;
+}
+
+.date-box span {
+  color: #4e4d4d;
+  font-size: 13px;
+  padding-top: 5px;
+  font-weight: 700;
+  font-family: 'Inter';
+  word-wrap: break-word;
+}
+
+.date-input {
+  height: 100%;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #4e4d4d;
+  background: transparent;
+  width: calc(100% - 20px);
+}
+  /*Estilos das caixas de texto */
+
+.text-container {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.text-box {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  max-width: 315px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  background: #d4d0d04b;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text-label {
+  font-size: 14px;
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 5px;
+  color: #4e4d4d;
+  font-family: 'Inter';
+}
+
+.text-box input {
+  height: 100%;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  background: transparent;
+  width: calc(100% - 20px);
+}
+
+
+  /*Estilo do botão de enviar */
+.submit-button {
+  border: none;
+  display: block;
+  cursor: pointer;
+  margin: 20px auto;
+  font-weight: bold;
+  padding: 18px 25px;
+  border-radius: 10px;
+  background-color: #353434;
+  color: rgb(244, 251, 252);
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #16b2b8;
+}
+
+  /*Estilo quadrados de qantidade de pessoas*/
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin-top: 80px;
+  position: relative;
+  align-items: center;
+  margin-bottom: 80px;
+  border-radius: 10px;
+  border-style: groove;
+  justify-content: center;
+  border-color: #52525248;
+  background-color: transparent;
+}
+
+
+.square-container {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.square-actions {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+  /*Estilo botões de adção e subtração de qtd de passageiros */
+.plus-button:hover,
+.minus-button:hover {
+  background: #16b2b8;
+}
+
+
+.plus-button,
+.minus-button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  align-items: center;
+  background: #3534343d;
+  justify-content: center;
+}
+
+.action-buttons {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Estilo contador de passageiros */
+.count {
+  bottom: 5px;
+  font-size: 24px;
+  color: #249296;
+  font-weight: bold;
+  position: absolute;
+  font-family: sans-serif;
+}
+
+.counters {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter-item {
+  margin-bottom: 10px;
+}
+
+.counter {
+  color: gray;
+  font-size: 0.8em;
+  font-weight: 800;
+  margin-bottom: -2vh;
+}
+/* Total de passageiros */
+.total {
+  padding: 5px;
+  font-size: 1.5em;
+  color: #249296;
+  font-weight: bold;
+  border-radius: 10px;
+  font-family: sans-serif;
+  
+  background-color: #09eff767;
+}
+
+.sum-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+  /*Informação dos passageiros*/
+.PassengerInfo{
+  color: gray;
+  margin-top: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: -350px;
+  margin-bottom: -1px;
+}
+
+  /*Mensagem de sucesso*/
+.success-message {
+  padding: 15px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #4caf50;
+}
+
+.checkoutMessage{
+  font-size: 35px;
+  color: #4e4d4d;
+  font-weight: bold;
+  font-family: sans-serif;
+} 
